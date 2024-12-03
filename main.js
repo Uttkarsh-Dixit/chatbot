@@ -42,7 +42,7 @@ function displayMessage(message, sender) {
 }
 
 async function getBotResponse(userInput) {
-    const apiKey =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; // Replace with your OpenAI API key
+    const apiKey =sk-proj-x6IG0MY0IA8ETXc2D5FAI1vx9b0M7-Z-ry8C1Ap5Pzi8eM2aEYYKiq2yxuQohoQWe3wDThGSlT3BlbkFJLtd0dnMC4XB3YlVvIKrr2_tIDFs5Lmc_g6TW4QE9-9KFJZrTtZTp1hxsuVUdaNDZSIWCdCkHYA; // Replace with your OpenAI API key
 
     const response = await fetch('https://api.openai.com/v1/completions', {
         method: 'POST',
